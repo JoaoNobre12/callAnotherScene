@@ -6,8 +6,8 @@ import javafx.scene.control.Label;
 
 public class Controller {
 	
-	@FXML Label txtHello;
-	@FXML Button btnExit;
+	@FXML Label txtHello; //LAbel from fxml
+	@FXML Button btnExit; // button for change
 
 	@FXML private void initialize() {
 		
