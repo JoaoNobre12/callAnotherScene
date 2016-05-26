@@ -17,7 +17,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 
 		Pane root = FXMLLoader.load(getClass().getResource(
-				"/br/com/casa/switchscreen/view/Login.fxml")); //load a panel from another package
+				"/br/com/casa/switchscreen/view/Login.fxml")); //load a panel from another package...
 		
 		Scene scene = new Scene(root); //sets the scene
 		
