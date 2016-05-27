@@ -36,7 +36,7 @@ public class Controller {
 	}
 
 	@FXML public void clicked() {
-		txtHello.setText("You clicked me!!!");
+		txtHello.setText("You've clicked me!!!");
 		System.out.println("Something clicked");
 	}
 }

@@ -23,7 +23,7 @@ public class ControllerLogin {
 		home_page_scene.getStylesheets().add(
 				getClass().getResource(
 						"/br/com/casa/switchscreen/view/application.css")
-						.toExternalForm());
+						.toExternalForm());//get stylesheet
 		
 		Stage app_stage = (Stage) ((Node) event.getSource()).getScene().getWindow(); //get the stage 
 		
